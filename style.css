@@ -1,0 +1,86 @@
+html {
+    background-image: radial-gradient(white, #00b8e6);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 1fr;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+h1,h2 {
+    font-family: cursive;
+}
+p {
+    font-size: 140%;
+}
+nav {
+    font-size: 120%;
+}
+li {
+    text-align: left;
+    font-size: 130%;
+}
+textarea {
+    margin-top: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+input {
+    margin-top: 5px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+input:invalid {
+    border: 4px solid maroon;
+}
+input:valid {
+    border: 4px solid green;
+}
+select:invalid {
+    border: 4px solid maroon;
+}
+select:valid {
+    border: 4px solid green;
+}
+.grid {
+	display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: auto auto auto;
+}
+.img-border {
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 375px;
+    margin-top: 25px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+}
+.linkMargin {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 130px;
+}
+#navbar {
+    background-color: white;
+    font-family: arial;
+    border: solid;
+    border-color: black;
+    border-radius: 6px;
+    padding: 1%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+#nav {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: black;
+}
+#input {
+    text-align: center;
+    font-size: 150%;
+}
